@@ -5,6 +5,7 @@
   Jekyll-webpack-boilerplate
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6738b680-7bf6-46cb-9526-f10475fd97ff/deploy-status)](https://app.netlify.com/sites/practical-pike-1cafe2/deploys)
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/JekyllWebpack)
