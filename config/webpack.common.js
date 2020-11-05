@@ -41,6 +41,18 @@ module.exports = {
           fallback: 'style-loader',
           use: [
             { loader: 'css-loader', options: { importLoaders: 1 } },
+            // {
+            //   loader: 'postcss-loader',
+            //   options: {
+            //     postcssOptions: {
+            //       ident: 'postcss',
+            //       plugins: [
+            //         require('tailwindcss'),
+            //         require('autoprefixer'),
+            //       ],
+            //     },
+            //   }
+            // },
             {
               loader: 'postcss-loader',
               options: {

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+$primary-color: #C8385A;
+$text-color: #333;
+$link-color: #7F7F7F;
+
+$font-xl: 58px;
+$font-md: 22px;
+$font-sm: 18px;
+$font-xs: 16px;
+
+$custom-font-family: 'Work Sans', sans-serif;
+$primary-font-family: $custom-font-family;
+
+
+body {
+	font-family: $primary-font-family;
+	color: $text-color;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.post {
+	&__content {
+		img {
+			margin: 2rem 0;
+		}
+	}
+
+	font-size: 1rem;
+
+	&__meta {
+		// font-size: 2rem;
+	}
+}

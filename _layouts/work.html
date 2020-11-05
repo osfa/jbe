@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="post mx-auto max-w-screen-lg px-4 lg:px-0" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post__container">
+
+<!--     <header class="post__header">
+      <h1 class="post__title" itemprop="name headline">{{ page.title | escape }}</h1>
+    </header> -->
+
+    <img src="{{ page.hero }}" class="mb-4" />
+
+    <div class="post__meta mb-4 text-xl ">
+      <p>{{ page.title }}</p>
+      <p>{{ page.year }}</p>
+      <p>{{ page.description }}</p>
+    </div>  
+
+    <div class="post__content" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </div>
+</article>
