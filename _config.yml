@@ -4,25 +4,23 @@
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
 title: Jacob Broms Engblom
-email: your-email@example.com
-description: A super website made with love
+email: jacob@likeneveralways.com
+description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#c0ffee'
 twitter_username: osfa
 github_username:  osfa
-author: Sandoche Adittane
+author: Jacob Broms Engblom
 logo: assets/images/large-logo.png
 twitter:
-  username: sandochee
+  username: osfa
 social:
-  name: Sandoche Adittane
+  name: Jacob Broms Engblom
   links:
-    - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
-    - https://github.com/sandoche
+    - https://twitter.com/osfa
+    - https://www.instagram.com/jacobbromsengblom/
+    - http://www.likeneveralways.com
 
 languages: ["en"]
 ampdir: amp

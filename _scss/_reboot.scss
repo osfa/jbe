@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700;900&display=swap');
 $primary-color: #C8385A;
 $text-color: #333;
 $link-color: #7F7F7F;
@@ -57,7 +56,7 @@ nav {
 .nav-item:last-child  > span { margin-left: auto;  }
 
 body.home {
-	background: #000000 url(/assets/images/triggered1.jpg) no-repeat left top;
+	background: #000000 url(/assets/images/triggered-hr.jpg) no-repeat left top;
 	background-size: cover;
 	nav {
 		// color: white;
