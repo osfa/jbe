@@ -1,29 +1,25 @@
-<nav id="nav" class="fixed top-0 w-full md:mb-8 bg-white">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.navigation_pages | default: default_paths %}
+<nav id="nav" class="fixed top-0 w-full md:mb-8">
 
-  <div class="mx-auto max-w-screen-lg flex h-16 flex-row justify-between items-center px-4 lg:px-0">
+  <div class="mx-auto max-w-screen-lg flex h-16 flex-row justify-center items-center px-6 lg:px-4">
 
-    <a class="justify-start" href="{{ "/" | relative_url }}">
-      <!-- <span class="navigation__logo"><img src="{{ "/assets/images/icon.png" | relative_url }}" class="navigation__logo-img" alt=""></span> -->
-      <span class="navigation__title">{{ site.title | escape }}</span>
-    </a>
-
-    <div class="justify-end">
-      {% if page_paths %}
-      {% for path in page_paths %}
-      {% assign my_page = site.pages | where: "path", path | first %}
-      {% if my_page.title %}
-      {% unless my_page.url contains site.ampdir %}
-      <a class="navigation__link{% if my_page.url == page.url %} navigation__link--active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-      {% endunless %}
-      {% endif %}
-      {% endfor %}
-      {% endif %}
+    <div class="nav-item justify-start">
+      <a href="{{ "/" | relative_url }}">
+        <span class="navigation__title">{{ site.title | escape }}</span>
+      </a>
     </div>
 
+    <div class="nav-item justify-center">
+      <a href="{{ "/work" | relative_url }}">
+        <span class="navigation__title">Work</span>
+      </a>
+    </div>
+
+    <div class="nav-item justify-end">
+      <a href="{{ "/about" | relative_url }}">
+        <span class="navigation__title">About</span>
+      </a>
+    </div>
 
   </div>
-
 
 </nav>

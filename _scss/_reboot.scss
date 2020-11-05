@@ -34,3 +34,45 @@ body {
 		// font-size: 2rem;
 	}
 }
+
+.page {
+	&__content {
+		p {
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+
+nav {
+	background-color: white;
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+}
+
+.nav-item:first-child > span { margin-right: auto; }
+
+.nav-item:last-child  > span { margin-left: auto;  }
+
+body.home {
+	background: #000000 url(/assets/images/triggered1.jpg) no-repeat left top;
+	background-size: cover;
+	nav {
+		// color: white;
+		// background-color: rgba(0, 0, 0, 0.2);
+	}
+}
+
+body.about {
+	background: blue;
+	color: white;
+	nav {
+		background-color: blue;
+	}
+}
+
+#work-list {
+	color: white;
+}

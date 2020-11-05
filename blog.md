@@ -1,7 +1,8 @@
 ---
 layout: blog
 title: Index
-permalink: /blog/
+permalink: /work/
+slug: work
 ---
 
 Hello world

@@ -1,5 +1,3 @@
-![Jekyll webpack boilerplate](/assets/images/icon.png){:style="width:150px; filter: grayscale(100%); opacity: 0.5; float: right; margin-top: -50px;"}
+Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.
 
-This website has been built with [Jekyll webpack boilerplate](https://github.com/sandoche/Jekyll-webpack-boilerplate)
-
-Check our documentation for more information.
+Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.

@@ -1,29 +1,24 @@
 ---
 layout: default
 ---
-<div id="home" class="mx-auto max-w-screen-lg flex justify-between items-center px-4 lg:px-0">
+<div id="home" class="flex justify-start flex-col flex-grow">
 
-	<section id="intro">
-		<!-- push here for links and short intro -->
+	<section id="intro" class="text-white">
+		<!-- push here for insta links and short intro -->
 	</section>
-	
 
-  <section id="featured">
+	<section id="featured">
+		{% for post in site.tags.featured %}
 
-  	<p class="text-sm">Pattern Extraction (2020)</p>
 
-	<p class="text-sm">Pattern Extraction (2020)</p>
+		<a href="{{ post.url }}" class="featured">
+			<img src="{{ post.hero }}" class="mb-4" />
+			{{ post.title }}
+		</a>
 
-  	<img class="my-2 md:my-5" src="{{ "/assets/images/pe2.jpg" | relative_url }}" />
 
-  	<img class="my-2" src="{{ "/assets/images/pe2.jpg" | relative_url }}" />
+		{% endfor %}
 
-  	<img class="my-2" src="{{ "/assets/images/pe2.jpg" | relative_url }}" />
-
-    <!-- <h1 class="home__headline">{% t home.header.headline %}</h1> -->
-    <!-- <a class="button home__cta" href="{% t home.header.call_to_action.link %}">{% t home.header.call_to_action.title %}</a> -->
-
-  </section>
-
+	</section>
 
 </div>
