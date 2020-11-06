@@ -1,21 +1,21 @@
 <nav id="nav" class="fixed top-0 w-full md:mb-8">
 
   <div class="mx-auto max-w-screen-xl flex h-16 flex-row justify-center items-center px-6 lg:px-4">
-
     <div class="nav-item justify-start">
-      <a href="{{ "/" | relative_url }}">
+      <a {% if page.url == "/" %} class="active underline"{% endif %} href="{{ "/" | relative_url }}" >
         <span class="navigation__title">{{ site.title | escape }}</span>
       </a>
     </div>
 
     <div class="nav-item justify-center">
-      <a href="{{ "/work" | relative_url }}">
+
+      <a {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
         <span class="navigation__title">Work</span>
       </a>
     </div>
 
     <div class="nav-item justify-end">
-      <a href="{{ "/about" | relative_url }}">
+      <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
         <span class="navigation__title">About</span>
       </a>
     </div>
