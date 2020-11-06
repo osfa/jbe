@@ -8,9 +8,10 @@ email: jacob@likeneveralways.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#c0ffee'
+theme_color: '#0000ff'
 twitter_username: osfa
 github_username:  osfa
+instagram_username: jacobbromsengblom
 author: Jacob Broms Engblom
 logo: assets/images/large-logo.png
 twitter:
