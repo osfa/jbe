@@ -6,13 +6,13 @@ layout: default
 
     <img src="{{ page.hero }}" class="mb-4" />
 
-    <div class="post__meta mb-4 text-xl ">
+    <div class="post__meta mb-4 mt-6 text-2xl lg:text-4xl">
       <p>{{ page.title }}</p>
       <p>{{ page.year }}</p>
       <p>{{ page.description }}</p>
     </div>  
 
-    <div class="post__content" itemprop="articleBody">
+    <div class="post__content text-lg lg:text-xl" itemprop="articleBody">
       {{ content }}
     </div>
   </div>

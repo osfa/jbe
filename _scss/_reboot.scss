@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700;900&display=swap');
 $primary-color: #C8385A;
-$text-color: #333;
+$text-color: #222;
 $link-color: #7F7F7F;
 
 $font-xl: 58px;
@@ -28,10 +28,21 @@ body {
 }
 
 .post {
+	img {
+		width: 100%;
+	}
 	&__content {
+		a {
+			color: blue;
+			text-decoration: underline;
+		}
 		img {
 			margin: 2rem 0;
 		}
+		p {
+			margin-bottom: 1rem;
+		}
+
 	}
 
 	font-size: 1rem;
