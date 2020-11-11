@@ -10,4 +10,6 @@ description: Video series
 weight: 3
 ---
 
-Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+20 x 2:20 video loops as 2-channel 4K video. 
+
+Image synthesis via artifical intelligence trained on dataset of minions imagery. Video playback on two screens automated algorithmically (only a selection of video loops included in this portfolio).

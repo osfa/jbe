@@ -6,11 +6,22 @@ date: 2019-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2020
-description: Installation @ Konstakademien
+description: 4K video loop 13:32 min
 weight: 2
 ---
 
-Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Found content from the genre of “satisfying content” (sometimes “visual ASMR”) interlaced with image synthesis via artificial intelligence trained on a dataset of extracted frames from the same content.
 
-![pe3](/assets/images/triggered1.jpg "pe3")
+![image-title](/assets/images/triggered2.jpg){:loading="lazy"}
 
+![image-title](/assets/images/triggered3.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered4.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered5.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered6.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered_000001.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered_000002.jpg){:loading="lazy"}

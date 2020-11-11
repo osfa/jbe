@@ -11,6 +11,13 @@ $font-xs: 16px;
 $custom-font-family: 'Work Sans', sans-serif;
 $primary-font-family: $custom-font-family;
 
+a.active {
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 
 body {
 	font-family: $primary-font-family;
@@ -36,8 +43,11 @@ body {
 
 .page {
 	&__content {
+		a {
+			text-decoration: underline;
+		}
 		p {
-			margin-bottom: 0.5rem;
+			margin-bottom: 1rem;
 		}
 	}
 }
@@ -69,6 +79,9 @@ body.about {
 	color: white;
 	nav {
 		background-color: blue;
+	}
+	a.active {
+		color: white;
 	}
 }
 

@@ -1,3 +1,3 @@
-Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.
+Jacob Broms Engblom is an artist and engineer with a practice circulating above and within undocumented phenomenon, medial processes and anxieties in our digital culture. 
 
-Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.
+[cv.pdf](/assets/cv.pdf)
