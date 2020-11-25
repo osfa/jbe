@@ -14,4 +14,8 @@ Image synthesis via artificial intelligence trained on conspiracy and chemtrails
 
 ![image-title](/assets/images/observations/observations-1.jpg){:loading="lazy"}
 
-![image-title](/assets/images/observations/observations-2.jpg){:loading="lazy"}
+![image-title](/assets/images/observations/observations-3.jpg){:loading="lazy"}
+
+![image-title](/assets/images/observations/observations-5.jpg){:loading="lazy"}
+
+![image-title](/assets/images/observations/observations-4.jpg){:loading="lazy"}
