@@ -30,7 +30,7 @@ netlify_cms: true
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
-#google_analytics: id
+google_analytics: G-56N146N9PN
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey
