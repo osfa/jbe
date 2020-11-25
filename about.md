@@ -7,4 +7,4 @@ slug: about
 
 {% translate_file about.md %}
 
-{% include social.html %}
+<!-- {% include social.html %} -->
