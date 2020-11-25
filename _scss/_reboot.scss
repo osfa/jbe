@@ -11,6 +11,11 @@ $font-xs: 16px;
 $custom-font-family: 'Work Sans', sans-serif;
 $primary-font-family: $custom-font-family;
 
+
+
+
+// ====
+
 #nav {
 	z-index: 1000;
 }
@@ -127,14 +132,23 @@ nav {
 
 .nav-item:last-child  > span { margin-left: auto;  }
 
-body.home {
-	background: #000000 url(/assets/images/triggered-hr.jpg) no-repeat left top;
-	background-size: cover;
-	nav {
-		// color: white;
-		// background-color: rgba(0, 0, 0, 0.2);
-	}
+body.home video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
+// body.home {
+// 	background: #000000 url(/assets/images/triggered-hr.jpg) no-repeat left top;
+// 	background-size: cover;
+// 	nav {
+// 		// color: white;
+// 		// background-color: rgba(0, 0, 0, 0.2);
+// 	}
+// }
 
 body.about {
 	background: blue;
