@@ -8,6 +8,7 @@ author: jbe
 year: 2020
 description: 4K video loop 13:32 min
 weight: 2
+hero_video: QgEEVK4FTxk
 ---
 
 Found content from the genre of “satisfying content” (sometimes “visual ASMR”) interlaced with synthesised imagery of the same content.

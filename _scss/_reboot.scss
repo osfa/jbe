@@ -11,6 +11,57 @@ $font-xs: 16px;
 $custom-font-family: 'Work Sans', sans-serif;
 $primary-font-family: $custom-font-family;
 
+#nav {
+	z-index: 1000;
+}
+.video-container {
+	height: 500px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.video-box {
+	width: 100%;
+	position:relative;
+}
+
+
+.video-thumbnail {
+	z-index: 300;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.video-frame {
+	z-index: 100;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.video-container.active {
+	iframe {
+		visibility: visible;
+	}
+	.video-thumbnail {
+		display: none;
+	}
+}
+
+.video-container  {
+	iframe {
+		visibility: hidden;
+	}
+	.video-thumbnail {
+		display: block;
+	}
+}
+
+/* END VID */
+
 a.active {
 	color: blue;
 }
