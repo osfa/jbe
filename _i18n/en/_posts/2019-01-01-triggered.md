@@ -12,6 +12,10 @@ weight: 2
 
 Found content from the genre of “satisfying content” (sometimes “visual ASMR”) interlaced with synthesised imagery of the same content.
 
+[![image-title](/assets/images/triggered/triggered-0.jpg)](/assets/images/triggered/triggered-0.jpg){:loading="lazy"}
+
+![image-title](/assets/images/triggered/triggered-0.jpg){:loading="lazy"}
+
 ![image-title](/assets/images/triggered/triggered-0.jpg){:loading="lazy"}
 
 ![image-title](/assets/images/triggered/triggered-1.jpg){:loading="lazy"}
