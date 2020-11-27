@@ -10,8 +10,8 @@ if(el){
 }
 
 const mainVideo = document.querySelector('#bgvid');
-const lowQ = 'reel-mobile.mp4'
-const hiQ = 'reel-desktop.mp4'
+const lowQ = 'min-grid-hd-10mbps-rotated.mp4'
+const hiQ = 'min-grid-fullhd-20mbps.mp4'
 const superQ = 'reel-max.mp4'
 
 if(mainVideo){
