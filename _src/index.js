@@ -9,16 +9,22 @@ if(el){
     }
 }
 
+const loader = document.querySelector('#loader');
 const mainVideo = document.querySelector('#bgvid');
-const lowQ = 'min-grid-hd-10mbps-rotated.mp4'
-const hiQ = 'min-grid-fullhd-20mbps.mp4'
+const lowQ = 'mini-min-mix-3-hd-r.mp4'
+const hiQ = 'mini-min-mix-3-fullhd.mp4'
 const superQ = 'reel-max.mp4'
 
 if(mainVideo){
-    if (window.innerWidth < 1024) {
+    loader.classList.remove('hidden');
+    if (window.innerWidth < 960) {
       mainVideo.innerHTML = "<source type='video/mp4' src='" + lowQ + "' />";
+      mainVideo.setAttribute('poster', '/assets/images/poster-v.jpg');
     } else {
       mainVideo.innerHTML = "<source type='video/mp4' src='" + hiQ + "' />";
     }
 }
 
+mainVideo.addEventListener('play', function(){
+    loader.classList.add('hidden');
+});

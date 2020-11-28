@@ -2,7 +2,7 @@ Jacob Broms Engblom is an artist and engineer based in Stockholm, with a practic
 
 emailto: jacob@likeneveralways.com
 
-cv: [cv.pdf](/assets/cv.pdf)
+cv: [cv.pdf](/cv.pdf)
 
 twitter: [@osfa](https://twitter.com/osfa)
 
