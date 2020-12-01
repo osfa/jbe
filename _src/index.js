@@ -11,9 +11,9 @@ if(el){
 
 const loader = document.querySelector('#loader');
 const mainVideo = document.querySelector('#bgvid');
-const lowQ = 'mini-min-mix-3-hd-r.mp4'
-const hiQ = 'mini-min-mix-3-fullhd.mp4'
-const superQ = 'reel-max.mp4'
+// const lowQ = 'mini-min-mix-3-hd-r.mp4'
+const lowQ = 'hd-1mbps-v.mp4'
+const hiQ = 'fullhd-2mbps-h.mp4'
 
 if(mainVideo){
     loader.classList.remove('hidden');
