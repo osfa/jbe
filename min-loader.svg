@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 999.35 999.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff602;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+      @keyframes b {0%,to{transform-origin:center;transform:scale(.8)}50%{transform:scale(1)}}
+    </style>
+  </defs>
+  <circle class="cls-1" cx="499.68" cy="499.68" r="499.68" style="animation:b 2s infinite"/>
+  <circle class="cls-2" cx="499.45" cy="499.9" r="288.96" style="animation:b 1s infinite"/>
+  <circle cx="499.45" cy="499.9" r="72.22"/>
+</svg>
