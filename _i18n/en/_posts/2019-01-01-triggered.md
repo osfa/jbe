@@ -2,6 +2,8 @@
 layout: work
 title: Triggered
 hero: /assets/images/triggered/triggered-13-1280.jpg
+hero_w: 1280
+hero_h: 1280
 date: 2020-02-12T14:53:49.009Z
 categories: work
 author: jbe

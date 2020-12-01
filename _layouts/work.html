@@ -14,7 +14,13 @@ layout: default
           </div>
       </div>
     {% else %}
-       <img src="{{ page.hero }}" class="mb-4" />
+      
+      {% if page.hero_w != "" and page.hero_w != nil %}
+       <img src="{{ page.hero }}" width="1280" height="1280" class="mb-4" />
+      {% else %}
+        <img src="{{ page.hero }}" class="mb-4" />
+      {% endif %}
+
     {% endif %}
 
     <div class="post__meta mb-4 mt-6 text-2xl lg:text-4xl">
