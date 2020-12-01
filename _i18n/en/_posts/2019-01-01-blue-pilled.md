@@ -2,10 +2,11 @@
 layout: work
 title: Blue Pilled
 hero: /assets/images/triggered1.jpg
-date: 2019-02-12T14:53:49.009Z
+date: 2020-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2020
+permalink: /blue-pilled/
 description: Installation @ Konstakademien
 weight: 2
 published: false

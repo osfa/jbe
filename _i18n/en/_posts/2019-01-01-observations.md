@@ -5,7 +5,8 @@ hero: /assets/images/observations/observations-0.jpg
 date: 2019-02-12T14:53:49.009Z
 categories: work
 author: jbe
-year: 2019
+year: 2020
+permalink: /observations/
 description: 2-channel 4K video loop 2:20
 weight: 110
 ---

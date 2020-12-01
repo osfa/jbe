@@ -6,6 +6,7 @@ date: 2019-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2019
+permalink: /brain-nursery-egg-tv/
 description: Automated YouTube-channel
 weight: 400
 ---
