@@ -16,16 +16,16 @@ const lowQ = 'hd-1mbps-v.mp4'
 const hiQ = 'fullhd-2mbps-h.mp4'
 
 if(mainVideo){
-    loader.classList.remove('hidden');
+    // loader.classList.remove('hidden');
     if (window.innerWidth < 960) {
       mainVideo.innerHTML = "<source type='video/mp4' src='" + lowQ + "' />";
       mainVideo.setAttribute('poster', '/assets/images/poster-v.jpg');
     } else {
       mainVideo.innerHTML = "<source type='video/mp4' src='" + hiQ + "' />";
     }
-    mainVideo.addEventListener('play', function(){
-        loader.classList.add('hidden');
-    });
+    // mainVideo.addEventListener('play', function(){
+    //     loader.classList.add('hidden');
+    // });
 }
 
 

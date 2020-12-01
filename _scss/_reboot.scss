@@ -149,6 +149,14 @@ body.home video {
   left: 0;
 }
 
+.audioplayer {
+	top: 64px;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(200%);
+}
+
 // body.home {
 // 	background: #000000 url(/assets/images/triggered-hr.jpg) no-repeat left top;
 // 	background-size: cover;
