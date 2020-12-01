@@ -25,6 +25,18 @@ layout: default
 
     <div class="post__content text-lg lg:text-xl" itemprop="articleBody">
       {{ content }}
+      {% for image in page.images %}
+        <a href="{{ image.path | replace: '.jpg', '-1280.jpg' }}">
+          <img
+          data-sizes="auto"
+          src="{{ image.path | replace: '.jpg', '-220.jpg' }}"
+          data-src="{{ image.path | replace: '.jpg', '-1280.jpg' }}"
+          data-srcset="
+          {{ image.path | replace: '.jpg', '-500.jpg' }} 500w,
+          {{ image.path | replace: '.jpg', '-1024.jpg' }} 1024w,
+          {{ image.path | replace: '.jpg', '-1280.jpg' }} 1280w" class="lazyload" />
+        </a>
+      {% endfor %}
     </div>
 
 
