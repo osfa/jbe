@@ -6,6 +6,7 @@ date: 2020-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2020
+permalink: /unforeseen-consequences/
 description: 20 x 2:20 video loops as 2-channel 4K video 
 weight: 3
 ---
