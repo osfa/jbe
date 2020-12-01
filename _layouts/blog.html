@@ -4,8 +4,10 @@ layout: default
 <section id="index-list" class="text-2xl pt-6">
 
   <ul>
+
     {% assign sortedPosts = site.posts | sort: 'weight' %}
     {% for post in sortedPosts %}
+      {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
       <li class="pb-3"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
