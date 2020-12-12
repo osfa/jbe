@@ -16,9 +16,9 @@ layout: default
     {% else %}
       
       {% if page.hero_w != "" and page.hero_w != nil %}
-       <img src="{{ page.hero }}" width="1280" height="1280" class="mb-4" />
+       <a href="{{ page.hero }}"><img src="{{ page.hero }}" width="1280" height="1280" class="mb-4" /></a>
       {% else %}
-        <img src="{{ page.hero }}" class="mb-4" />
+        <a href="{{ page.hero }}"><img src="{{ page.hero }}" class="mb-4" /></a>
       {% endif %}
 
     {% endif %}

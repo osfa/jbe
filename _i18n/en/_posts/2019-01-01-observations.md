@@ -13,10 +13,11 @@ weight: 110
 
 Image synthesis via artificial intelligence trained on conspiracy and chemtrails imagery from pinterest and conspiracy groups on Facebook.
 
-![image-title](/assets/images/observations/observations-1.jpg){:loading="lazy"}
 
-![image-title](/assets/images/observations/observations-3.jpg){:loading="lazy"}
+[![observations](/assets/images/observations/observations-1.jpg){:loading="lazy"}](/assets/images/observations/observations-1.jpg)
 
-![image-title](/assets/images/observations/observations-5.jpg){:loading="lazy"}
+[![observations](/assets/images/observations/observations-3.jpg){:loading="lazy"}](/assets/images/observations/observations-3.jpg)
 
-![image-title](/assets/images/observations/observations-4.jpg){:loading="lazy"}
+[![observations](/assets/images/observations/observations-5.jpg){:loading="lazy"}](/assets/images/observations/observations-5.jpg)
+
+[![observations](/assets/images/observations/observations-4.jpg){:loading="lazy"}](/assets/images/observations/observations-4.jpg)

@@ -19,8 +19,8 @@ About 15-30 minutes of content generated and uploaded daily.
 
 [https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ](https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ)
 
-![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-0.jpg "bnetv")
+[![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-0.jpg){:loading="lazy"}](/assets/images/brainnurseryeggtv/brainnurseryeggtv-0.jpg)
 
-![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-2.jpg "bnetv")
+[![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-2.jpg){:loading="lazy"}](/assets/images/brainnurseryeggtv/brainnurseryeggtv-2.jpg)
 
-![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-1.jpg "bnetv")
+[![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-1.jpg){:loading="lazy"}](/assets/images/brainnurseryeggtv/brainnurseryeggtv-1.jpg)
