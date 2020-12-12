@@ -7,17 +7,21 @@
       </a>
     </div>
 
-    <div class="nav-item justify-center">
+    <div class="fixed">
 
       <a {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
         <span class="navigation__title">Work</span>
       </a>
     </div>
 
-    <div class="nav-item justify-end">
+    <div class="nav-item justify-end items-center mr-16 2xl:mr-0">
+
       <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
         <span class="navigation__title">About</span>
       </a>
+
+      <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0"></div>
+     
     </div>
 
   </div>
