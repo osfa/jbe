@@ -31,17 +31,7 @@ var ready = function() {
       // });
   }
 
-  UnmuteButton({
-    //the parent element of the mute button
-    //can pass in "none" to create the element, but not add it to the DOM
-    container : document.querySelector('#muter'),
-    //the title which appears on the iOS lock screen
-    title : 'Web Audio',
-    //force it to start muted, even when the AudioContext is running
-    mute : true,
-    //AudioContext
-    context : new AudioContext(),
-  })
+
 
   // const synth = new Tone.Synth().toMaster()
   // synth.volume.value = -20
@@ -61,6 +51,24 @@ var ready = function() {
   // osc.frequency.rampTo(420, 0); // seq val rampto
   // Tone.Transport.start()  
 
+
+  // Tone.Transport.start()  
+
+}
+
+
+var audioReady = function() {
+  UnmuteButton({
+    //the parent element of the mute button
+    //can pass in "none" to create the element, but not add it to the DOM
+    container : document.querySelector('#muter'),
+    //the title which appears on the iOS lock screen
+    title : 'Web Audio',
+    //force it to start muted, even when the AudioContext is running
+    mute : true,
+    //AudioContext
+    context : new AudioContext(),
+  })
   const split = new Tone.Merge().toMaster()
   const leftEar = new Tone.Oscillator(80, "sine").start();
   const rightEar = new Tone.Oscillator(81, "sine").start();
@@ -72,8 +80,6 @@ var ready = function() {
   rainMaker.set("volume", -24);
   leftEar.connect(split.left)
   rightEar.connect(split.right)
-  // Tone.Transport.start()  
-
 }
 
 // $(document).ready(ready);
@@ -82,6 +88,7 @@ var ready = function() {
 document.addEventListener("page:load", ready);
 
 document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", audioReady);
 
 // // Run after the HTML document has finished loading
 // document.addEventListener("DOMContentLoaded", function() {
