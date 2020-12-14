@@ -47,6 +47,7 @@ plugins:
   - octopress-minify-html
   - jekyll-multiple-languages-plugin
   - amp-jekyll
+  - jekyll-turbolinks
 
 ### Exclude from processing.
 exclude:

@@ -1,8 +1,9 @@
 // CSS and SASS files
 import './index.scss';
 
-document.addEventListener("DOMContentLoaded", function() {
+var ready = function() {
 
+  console.log('ready')
   const el = document.querySelector('.video-container');
 
   if(el){
@@ -73,7 +74,14 @@ document.addEventListener("DOMContentLoaded", function() {
   rightEar.connect(split.right)
   // Tone.Transport.start()  
 
-});
+}
+
+// $(document).ready(ready);
+// $(document).on('page:load', ready);
+
+document.addEventListener("page:load", ready);
+
+document.addEventListener("DOMContentLoaded", ready);
 
 // // Run after the HTML document has finished loading
 // document.addEventListener("DOMContentLoaded", function() {
