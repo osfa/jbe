@@ -36,6 +36,9 @@ google_analytics: G-56N146N9PN
 #  appKey: doorbell_appKey
 
 #cookie_consent: true
+turbolinks:
+  enabled: true # Set to false if you want to use the tag
+  url: /turbolinks.js
 
 ### Build settings
 markdown: kramdown
