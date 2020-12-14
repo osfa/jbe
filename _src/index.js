@@ -58,6 +58,7 @@ var ready = function() {
 
 
 var audioReady = function() {
+  console.log('audio ready')
   UnmuteButton({
     //the parent element of the mute button
     //can pass in "none" to create the element, but not add it to the DOM
