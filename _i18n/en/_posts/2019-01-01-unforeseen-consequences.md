@@ -15,8 +15,8 @@ Image synthesis via artifical intelligence trained on dataset of minions imagery
 
 [![ufc](/assets/images/ufc-blocks/ufc-blocks-0.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-0.jpg)
 
-[![ufc](/assets/images/ufc-blocks/ufc-sequence-0.jpg "ufc")](/assets/images/ufc-blocks/ufc-sequence-0.jpg)
+[![ufc](/assets/images/ufc-sequence/ufc-sequence-0.jpg "ufc")](/assets/images/ufc-sequence/ufc-sequence-0.jpg)
 
-[![ufc](/assets/images/ufc-blocks/ufc-projections-0.jpg "ufc")](/assets/images/ufc-blocks/ufc-projections-0.jpg)
+[![ufc](/assets/images/ufc-projections/ufc-projections-0.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-0.jpg)
 
 
