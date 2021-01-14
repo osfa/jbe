@@ -1,5 +1,7 @@
 hero_video: QgEEVK4FTxk
 
+node 12
+
 <p align="center">
   <img src="https://github.com/sandoche/Jekyll-webpack-boilerplate/blob/master/icon.png?raw=true" width="200"/>
 </p>
