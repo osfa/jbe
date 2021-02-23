@@ -13,6 +13,10 @@ layout: default
               </a>
           </div>
       </div>
+    {% elsif page.embed_youtube_url != "" and page.embed_youtube_url != nil %}
+      <div class='embed-container'>
+        <iframe src='{{ page.embed_youtube_url }}' frameborder='0' allowfullscreen></iframe>
+      </div>
     {% else %}
       
       {% if page.hero_w != "" and page.hero_w != nil %}
