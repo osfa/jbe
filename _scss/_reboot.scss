@@ -12,7 +12,7 @@ $custom-font-family: 'Work Sans', sans-serif;
 $primary-font-family: $custom-font-family;
 
 .home {
-	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -31,7 +31,7 @@ $primary-font-family: $custom-font-family;
 
 .embed-container { 
 	position: relative; 
-	// margin: 0 0.75rem; 
+	margin: 0 0.75rem; 
 	padding-bottom: 56.25%; 
 	height: 0; overflow: hidden; 
 	max-width: 100%; 

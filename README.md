@@ -2,6 +2,15 @@ hero_video: QgEEVK4FTxk
 
 node 12
 
+
+images:
+    - path: /assets/images/triggered/triggered-14.jpg
+    - path: /assets/images/triggered/triggered-9.jpg
+    - path: /assets/images/triggered/triggered-10.jpg
+    - path: /assets/images/triggered/triggered-5.jpg
+    - path: /assets/images/triggered/triggered-6.jpg
+    
+
 <p align="center">
   <img src="https://github.com/sandoche/Jekyll-webpack-boilerplate/blob/master/icon.png?raw=true" width="200"/>
 </p>
