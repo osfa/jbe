@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Unforeseen Consequences
-hero: /assets/images/ufc-projections/ufc-projections-0.jpg
+hero: /assets/images/ufc-projections/ufc-projections-1.jpg
 date: 2020-02-12T14:53:49.009Z
 categories: work
 author: jbe
@@ -13,10 +13,43 @@ weight: 3
 
 Image synthesis via artifical intelligence trained on dataset of minions imagery. 
 
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-0.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-0.jpg)
+<div class='embed-container embed-vertical'>
+	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/ZcYu6V4PbhI' frameborder='0' allowfullscreen></iframe>
+</div>
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-1.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-1.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
+
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-4.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-4.jpg)
 
 [![ufc](/assets/images/ufc-sequence/ufc-sequence-0.jpg "ufc")](/assets/images/ufc-sequence/ufc-sequence-0.jpg)
 
-[![ufc](/assets/images/ufc-projections/ufc-projections-0.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-0.jpg)
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-5.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-5.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-3.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-3.jpg)
+
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-6.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-6.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
+
+
+https://www.youtube.com/watch?v=R0XqGe8zkDs
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-7.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-7.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-9.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-9.jpg)
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-8.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-8.jpg)
+
+
+[![ufc](/assets/images/ufc-sequence/ufc-sequence-1.jpg "ufc")](/assets/images/ufc-sequence/ufc-sequence-1.jpg)
+
+
+
+
 
 
