@@ -13,6 +13,12 @@ layout: default
               </a>
           </div>
       </div>
+    {% elsif page.audio_source != "" and page.audio_source != nil %}
+
+      <audio class="w-full" controls autoplay>
+      <source src="{{ page.audio_source }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> 
     {% elsif page.embed_youtube_url != "" and page.embed_youtube_url != nil %}
       <div class='embed-container'>
         <iframe src='{{ page.embed_youtube_url }}' frameborder='0' allowfullscreen></iframe>
