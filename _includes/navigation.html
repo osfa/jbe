@@ -14,13 +14,13 @@
       </a>
     </div>
 
-    <div class="nav-item justify-end items-center mr-16 2xl:mr-0">
+    <div class="nav-item justify-end items-center mr-0 2xl:mr-0">
 
       <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
         <span class="navigation__title">About</span>
       </a>
 
-      <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0" data-turbolinks-permanent></div>
+      <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0 hidden" data-turbolinks-permanent></div>
      
     </div>
 

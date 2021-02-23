@@ -82,6 +82,6 @@ var audioReady = function() {
 // $(document).ready(ready);
 // $(document).on('page:load', ready);
 
-document.addEventListener("page:load", ready);
-document.addEventListener("DOMContentLoaded", ready);
-document.addEventListener("DOMContentLoaded", audioReady);
+// document.addEventListener("page:load", ready);
+// document.addEventListener("DOMContentLoaded", ready);
+// document.addEventListener("DOMContentLoaded", audioReady);
