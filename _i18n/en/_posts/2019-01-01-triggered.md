@@ -3,7 +3,6 @@ layout: work
 title: Triggered
 hero: /assets/images/triggered/triggered-13-1280.jpg
 hero_w: 1280
-hero_h: 1280
 date: 2020-02-12T14:53:49.009Z
 categories: work
 author: jbe
@@ -20,3 +19,7 @@ images:
 ---
 
 Found content from the genre of “satisfying content” (sometimes “visual ASMR”) interlaced with synthesised imagery of the same content.
+
+<div class='embed-container embed-vertical'>
+	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/QgEEVK4FTxk' frameborder='0' allowfullscreen></iframe>
+</div>

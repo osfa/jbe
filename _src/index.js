@@ -4,33 +4,33 @@ import './index.scss';
 var ready = function() {
 
   console.log('ready');
-  const el = document.querySelector('.video-container');
+  // const el = document.querySelector('.video-container');
 
-  if(el){
-      el.onclick = function() {
-        el.classList.toggle('active');
-      }
-  }
+  // if(el){
+  //     el.onclick = function() {
+  //       el.classList.toggle('active');
+  //     }
+  // }
 
-  const loader = document.querySelector('#loader');
-  const mainVideo = document.querySelector('#bgvid');
+  // const loader = document.querySelector('#loader');
+  // const mainVideo = document.querySelector('#bgvid');
 
-  const lowQ = 'glitter-min-equi.mp4'
-  const hiQ = 'glitter-min-equi.mp4'
+  // const lowQ = 'glitter-min-equi.mp4'
+  // const hiQ = 'glitter-min-equi.mp4'
 
-  if(mainVideo){
-      // loader.classList.remove('hidden');
-      if (window.innerWidth < 960) {
-        // mainVideo.innerHTML = "<source type='video/mp4' src='/video/" + lowQ + "' />";
-        mainVideo.setAttribute('poster', '/assets/images/equi-80-r.jpg');
-      } 
-      else {
-        // mainVideo.innerHTML = "<source type='video/mp4' src='/video/" + hiQ + "' />";
-      }
-      // mainVideo.addEventListener('play', function(){
-      //     loader.classList.add('hidden');
-      // });
-  }
+  // if(mainVideo){
+  //     // loader.classList.remove('hidden');
+  //     if (window.innerWidth < 960) {
+  //       // mainVideo.innerHTML = "<source type='video/mp4' src='/video/" + lowQ + "' />";
+  //       mainVideo.setAttribute('poster', '/assets/images/equi-80-r.jpg');
+  //     } 
+  //     else {
+  //       // mainVideo.innerHTML = "<source type='video/mp4' src='/video/" + hiQ + "' />";
+  //     }
+  //     // mainVideo.addEventListener('play', function(){
+  //     //     loader.classList.add('hidden');
+  //     // });
+  // }
 
   // const synth = new Tone.Synth().toMaster()
   // synth.volume.value = -20
