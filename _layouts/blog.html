@@ -23,6 +23,16 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h1 class="my-6">2017</h1>
+  <ul>
+    {% assign sortedPosts = site.posts | sort: 'weight' %}
+    {% for post in sortedPosts %}
+      {% if 2017 == post.year %}
+      <li class="pb-3"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
   <h1 class="my-6 "><a href="http://www.likeneveralways.com" class="underline">Archive</a></h1>
 
 </section>
