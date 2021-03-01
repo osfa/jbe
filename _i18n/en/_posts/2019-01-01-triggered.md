@@ -14,10 +14,6 @@ permalink: /triggered/
 
 Found content from the genre of “satisfying content” (sometimes “visual ASMR”) interlaced with synthesised imagery of the same content.
 
-<div class='embed-container embed-vertical'>
-	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/QgEEVK4FTxk' frameborder='0' allowfullscreen></iframe>
-</div>
-
 [![triggered](/assets/images/triggered/triggered-14-1280.jpg?nf_resize=fit&w=1280){:loading="lazy"}](/assets/images/triggered/triggered-14-2048.jpg)
 
 [![triggered](/assets/images/triggered/triggered-9-1280.jpg?nf_resize=fit&w=1280){:loading="lazy"}](/assets/images/triggered/triggered-9-2048.jpg)
