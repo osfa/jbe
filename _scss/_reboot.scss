@@ -12,9 +12,34 @@ $custom-font-family: 'Work Sans', sans-serif;
 $primary-font-family: $custom-font-family;
 
 .home {
-	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
+	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1000) no-repeat center center fixed;
 	background-size: cover;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1000) no-repeat center center fixed;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1600) no-repeat center center fixed;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .home {
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=2000) no-repeat center center fixed;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .home {
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=2500) no-repeat center center fixed;
+  }
 }
 
 // [16:9]

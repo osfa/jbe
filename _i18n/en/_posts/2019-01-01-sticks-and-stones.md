@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Sticks and Stones
-embed_youtube_url: https://player.vimeo.com/video/488531623
+horisontal_embed_uri: https://player.vimeo.com/video/488531623
 date: 2017-02-12T14:53:49.009Z
 categories: work
 author: jbe

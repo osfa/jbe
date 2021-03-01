@@ -3,6 +3,7 @@ layout: work
 title: Unforeseen Consequences
 hero: /assets/images/ufc-projections/ufc-projections-1.jpg
 date: 2020-02-12T14:53:49.009Z
+vertical_embed_uri: https://player.vimeo.com/video/515797043
 categories: work
 author: jbe
 year: 2020
@@ -13,7 +14,7 @@ weight: 3
 
 Image synthesis via artifical intelligence trained on dataset of minions imagery. 
 
-<div class='embed-container embed-vertical'>
+<div class='embed-container embed-vertical hidden'>
 	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/ZcYu6V4PbhI' frameborder='0' allowfullscreen></iframe>
 </div>
 

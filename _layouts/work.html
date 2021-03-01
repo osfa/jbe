@@ -4,32 +4,28 @@ layout: default
 <article class="post pb-8" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post__container">
 
-    {% if page.hero_video != "" and page.hero_video != nil %}
-      <div class="video-container">
-          <div class="video-box">
-              <a class="thumbnail-link">
-                  <img src="http://i.ytimg.com/vi/{{ page.hero_video }}/maxresdefault.jpg" class="video-thumbnail">
-                  <iframe class="video-frame" width="1000" height="1870" src="https://www.youtube-nocookie.com/embed/{{ page.hero_video }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </a>
-          </div>
+    {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
+
+    <div class='embed-container embed-vertical'>
+    <iframe width="1000" height="1870" src='{{ page.vertical_embed_uri }}' frameborder='0' allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    {% elsif page.horisontal_embed_uri != "" and page.horisontal_embed_uri != nil %}
+
+      <div class='embed-container'>
+        <iframe src='{{ page.horisontal_embed_uri }}' frameborder='0' allowfullscreen></iframe>
       </div>
+
     {% elsif page.audio_source != "" and page.audio_source != nil %}
 
       <audio class="w-full" controls autoplay>
       <source src="{{ page.audio_source }}" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio> 
-    {% elsif page.embed_youtube_url != "" and page.embed_youtube_url != nil %}
-      <div class='embed-container'>
-        <iframe src='{{ page.embed_youtube_url }}' frameborder='0' allowfullscreen></iframe>
-      </div>
+
     {% else %}
-      
-      {% if page.hero_w != "" and page.hero_w != nil %}
-        <a href="{{ page.hero }}"><img src="{{ page.hero }}" width="1280" height="1280" class="mb-4" /></a>
-      {% else %}
-        <a href="{{ page.hero }}"><img src="{{ page.hero }}" class="mb-4" /></a>
-      {% endif %}
+
+    <img src="{{ page.hero }}" class="mb-4" />
 
     {% endif %}
 
