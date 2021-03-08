@@ -9,6 +9,7 @@ year: 2019
 permalink: /brain-nursery-egg-tv/
 description: Automated YouTube-channel
 weight: 400
+horisontal_embed_uri: https://www.youtube.com/embed/WLFkJ4R-TWk
 ---
 
 Automated YouTube-channel consisting of a series of small “AI” trained on existing videos from Kids YouTube (frame prediction algorithm), nursery rhymes lyrics and nursery rhyme melodies. 
@@ -19,9 +20,6 @@ About 15-30 minutes of content generated and uploaded daily.
 
 [https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ](https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ)
 
-<div class='embed-container embed-vertical'>
-	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/WLFkJ4R-TWk' frameborder='0' allowfullscreen></iframe>
-</div>
 
 [![bnetv](/assets/images/brainnurseryeggtv/brainnurseryeggtv-0.jpg){:loading="lazy"}](/assets/images/brainnurseryeggtv/brainnurseryeggtv-0.jpg)
 
