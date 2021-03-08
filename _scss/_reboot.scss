@@ -38,13 +38,13 @@ $primary-font-family: $custom-font-family;
 
 @media only screen and (min-width: 1536px) {
   .home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1600) no-repeat center center fixed;
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
   }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1920px) {
   .home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=2000) no-repeat center center fixed;
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=2400) no-repeat center center fixed;
   }
 }
 
