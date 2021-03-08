@@ -9,7 +9,7 @@ permalink: /blue-pilled/
 description: Audio Collage
 weight: 2
 published: true
-audio_source: /audio/bluepilled.mp3
+audio_source: /audio/bluepilled2.mp3
 ---
 
 3-channel audio, 2 x subwoofer, 1 directional speaker 30:32 min
