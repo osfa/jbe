@@ -13,7 +13,7 @@ $primary-font-family: $custom-font-family;
 
 .home {
 	background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1000) no-repeat center center fixed;
-	background-size: cover;
+	background-size: contain!important;
 	overflow: hidden;
 }
 
@@ -44,13 +44,13 @@ $primary-font-family: $custom-font-family;
 
 @media only screen and (min-width: 1920px) {
   .home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=2400) no-repeat center center fixed;
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3200) no-repeat center center fixed;
   }
 }
 
 @media only screen and (min-width: 3000px) {
   .home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3000) no-repeat center center fixed;
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
   }
 }
 
