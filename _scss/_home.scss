@@ -1,8 +1,13 @@
 .home {
-	background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1200) no-repeat center center fixed;
-	background-size: contain!important;
+	background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
 	overflow: hidden;
 }
+
+// @media screen and (orientation:portrait) {
+//   .home {
+//     background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+//   }
+// }
 
 body.home video {
   object-fit: cover;
@@ -13,36 +18,35 @@ body.home video {
   left: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .home {
-      background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1200) no-repeat center center fixed;
+      background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
   }
-}
-
-@media screen and (orientation:portrait) {
-  background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1400) no-repeat center center fixed;
 }
 
 @media only screen and (min-width: 1024px) {
   .home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1400) no-repeat center center fixed;
+    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .home {
     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+      background-size: contain!important;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .home {
     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3200) no-repeat center center fixed;
+      background-size: contain!important;
   }
 }
 
 @media only screen and (min-width: 3000px) {
   .home {
     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
+      background-size: contain!important;
   }
 }
