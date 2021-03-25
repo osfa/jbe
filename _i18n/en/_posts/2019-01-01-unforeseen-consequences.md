@@ -24,36 +24,34 @@ Image synthesis via artifical intelligence trained on dataset of minions imagery
 </div>
  -->
 
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-1.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-1.jpg)
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-1.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-1.jpg)
 
-[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
-
-
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-4.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-4.jpg)
-
-[![ufc](/assets/images/ufc-sequence/ufc-sequence-0.jpg "ufc")](/assets/images/ufc-sequence/ufc-sequence-0.jpg)
+[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
 
 
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-5.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-5.jpg)
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-4.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-4.jpg)
 
-[![ufc](/assets/images/ufc-projections/ufc-projections-3.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-3.jpg)
-
-
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-6.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-6.jpg)
-
-[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
+[![ufc](/assets/images/ufc-sequence/ufc-sequence-0.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-sequence/ufc-sequence-0.jpg)
 
 
-https://www.youtube.com/watch?v=R0XqGe8zkDs
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-5.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-5.jpg)
 
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-7.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-7.jpg)
-
-[![ufc](/assets/images/ufc-projections/ufc-projections-9.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-9.jpg)
-
-[![ufc](/assets/images/ufc-blocks/ufc-blocks-8.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-8.jpg)
+[![ufc](/assets/images/ufc-projections/ufc-projections-3.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-projections/ufc-projections-3.jpg)
 
 
-[![ufc](/assets/images/ufc-sequence/ufc-sequence-1.jpg "ufc")](/assets/images/ufc-sequence/ufc-sequence-1.jpg)
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-6.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-6.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
+
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-7.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-7.jpg)
+
+[![ufc](/assets/images/ufc-projections/ufc-projections-9.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-projections/ufc-projections-9.jpg)
+
+[![ufc](/assets/images/ufc-blocks/ufc-blocks-8.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-blocks/ufc-blocks-8.jpg)
+
+
+[![ufc](/assets/images/ufc-sequence/ufc-sequence-1.jpg?nf_resize=fit&w=1920 "ufc")](/assets/images/ufc-sequence/ufc-sequence-1.jpg)
 
 
 
