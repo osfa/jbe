@@ -6,6 +6,7 @@ categories: work
 author: jbe
 year: 2020
 permalink: /blue-pilled/
+hero: /assets/images/blue-pilled.jpg
 description: Audio Collage
 weight: 2
 published: true
