@@ -8,7 +8,7 @@ author: jbe
 year: 2020
 permalink: /djur-och-natur/
 description: Inkjet on paper
-weight: 3
+weight: 0
 published: true
 ---
 
@@ -23,8 +23,6 @@ Image synthesis via neural network trained on dataset from Eskilstuna barnbildsa
 [![djurochnatur](/assets/images/djurochnatur/15_Smith_WEB.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/djurochnatur/15_Smith_WEB.jpg)
 
 [![djurochnatur](/assets/images/djurochnatur/16_Smith_WEB.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/djurochnatur/16_Smith_WEB.jpg)
-
-[![djurochnatur](/assets/images/djurochnatur/14_Smith_WEB.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/djurochnatur/14_Smith_WEB.jpg)
 
 [![djurochnatur](/assets/images/djurochnatur/19_Smith_WEB.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/djurochnatur/19_Smith_WEB.jpg)
 

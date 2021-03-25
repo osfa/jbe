@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Triggered
-hero: /assets/images/triggered/triggered-13-1280.jpg?nf_resize=fit&w=1280&h=1280
+hero: /assets/images/triggered/triggered-13-1280.jpg
 date: 2020-02-12T14:53:49.009Z
 vertical_embed_uri: https://player.vimeo.com/video/518329371
 categories: work
