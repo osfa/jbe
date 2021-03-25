@@ -12,9 +12,13 @@ published: true
 audio_source: /audio/bluepilled2.mp3
 ---
 
+<div class="pad">
+
 3-channel audio, 2 x subwoofer, 1 directional speaker 30:32 min
 
 Audio collage of  text-to-speech output from an AI trained on guided meditations scripts, ASMR (autonomous sensory meridian response) content and binaural beats (“healing brain frequencies”).
+
+</div>
 
 <!-- <div class="audioplayer fixed w-full z-50">
    <audio class="w-full" controls autoplay>

@@ -12,6 +12,10 @@ weight: 3
 published: false
 ---
 
+<div class="pad">
+
 Website that during the exhibition continously generated horoscopes via one artificial intelligence and did a sentiment analysis on the output via another, gauging whether the output was positive or not. 
 
 [http://guided-read-ii6f75sfda-lz.a.run.app/](http://guided-read-ii6f75sfda-lz.a.run.app/)
+
+</div>

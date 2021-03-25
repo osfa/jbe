@@ -12,6 +12,10 @@ weight: 3
 published: false
 ---
 
+<div class="pad">
+
 Djur och natur från vår hembygd ("Animals and nature from our hometown")
 
 Image synthesis via neural network trained on dataset from Eskilstuna barnbildsarkiv (archive of children's drawings).
+
+</div>

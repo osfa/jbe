@@ -11,7 +11,8 @@ description: FullHD 10:05 min
 weight: 2
 ---
 
+<div class="pad">
 
 Visualisation of an artificial intelligence (DCGAN neural network) training progression on ImageNet sets of “sticks” and “stones”. 
 
-
+</div>

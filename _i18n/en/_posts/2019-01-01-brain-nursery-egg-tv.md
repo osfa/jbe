@@ -12,11 +12,14 @@ weight: 400
 horisontal_embed_uri: https://www.youtube.com/embed/WLFkJ4R-TWk
 ---
 
+<div class="pad">
+
 Automated YouTube-channel consisting of a series of small “AI” trained on existing videos from Kids YouTube (frame prediction algorithm), nursery rhymes lyrics and nursery rhyme melodies. 
 
 
 About 15-30 minutes of content generated and uploaded daily.
 
+</div>
 
 [https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ](https://www.youtube.com/channel/UCiPXKXg9wP5Rgu2YdAVYWDQ)
 
