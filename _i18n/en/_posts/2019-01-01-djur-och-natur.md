@@ -14,7 +14,7 @@ published: true
 
 <div class="pad">
 
-Djur och natur från vår hembygd ("Animals and nature from our hometown")
+"Animals and nature from our hometown"
 
 Image synthesis via neural network trained on dataset from Eskilstuna barnbildsarkiv (archive of children's drawings).
 
