@@ -1,0 +1,32 @@
+.footer-nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 0;
+
+  .footer-nav-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+
+    padding: 0 0.75rem;
+
+    @media only screen and (min-width: $main-breakpoint) {
+      padding: 0 1rem;
+    }
+
+    a {
+      padding: 0.5rem 0;
+      font-size: 0.875rem;
+
+      @media only screen and (min-width: $main-breakpoint) {
+        padding: 0.75rem 0;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

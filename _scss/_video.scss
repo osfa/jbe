@@ -1,0 +1,77 @@
+// [16:9]
+// 9 / 16 * 100 = 56.25%
+
+// [16:10]
+// 10 / 16 * 100 = 62.5%
+
+// [4:3]
+// 3 / 4 * 100 = 75%
+
+// [9:16]
+// 16 / 9 * 100 = 177 56.25%
+
+.embed-container { 
+	position: relative; 
+	margin: 0 0.75rem; 
+	padding-bottom: 56.25%; 
+	height: 0; overflow: hidden; 
+	max-width: 100%; 
+}
+
+.embed-container.embed-vertical {
+	padding-bottom: 177.777777778%;
+}
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+/* ------ */
+
+.video-container {
+	height: 500px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.video-box {
+	width: 100%;
+	position:relative;
+}
+
+
+.video-thumbnail {
+	z-index: 300;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.video-frame {
+	z-index: 100;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.video-container.active {
+	iframe {
+		visibility: visible;
+	}
+	.video-thumbnail {
+		display: none;
+	}
+}
+
+.video-container  {
+	iframe {
+		visibility: hidden;
+	}
+	.video-thumbnail {
+		display: block;
+	}
+}

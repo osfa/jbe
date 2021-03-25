@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post pb-8" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post__container">
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
@@ -25,17 +25,17 @@ layout: default
 
     {% else %}
 
-    <img src="{{ page.hero }}" class="mb-4" />
+    <img src="{{ page.hero }}" class="post-hero" />
 
     {% endif %}
 
-    <div class="post__meta mb-4 mt-6 text-2xl px-3 lg:text-4xl">
+    <div class="post__meta">
       <p>{{ page.title }}</p>
       <p>{{ page.year }}</p>
       <p>{{ page.description }}</p>
     </div>  
 
-    <div class="post__content text-lg lg:text-xl" itemprop="articleBody">
+    <div class="post__content" itemprop="articleBody">
       {{ content }}
       {% for image in page.images %}
         <a href="{{ image.path | replace: '.jpg', '-1280.jpg' }}"><img data-sizes="auto"

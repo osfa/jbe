@@ -5,7 +5,7 @@ hero: /assets/images/observations/obs-olomouc1.jpg?nf_resize=fit&w=1920
 date: 2019-02-12T14:53:49.009Z
 categories: work
 author: jbe
-year: 2020
+year: 2019
 permalink: /observations/
 description: 2-channel 4K video loop 2:20
 weight: 110

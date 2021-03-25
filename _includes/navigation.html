@@ -1,7 +1,9 @@
-<nav id="nav" class="fixed top-0 w-full md:mb-8">
+<nav id="nav">
 
-  <div class="mx-auto max-w-screen-lg flex h-16 flex-row justify-center items-center px-3 lg:px-4">
-    <div class="nav-item justify-start">
+  <div class="nav-inner">
+
+
+    <div class="nav-item start">
       <a {% if page.url == "/" %} class="active underline"{% endif %} href="{{ "/" | relative_url }}" >
         <span class="navigation__title">{{ site.title | escape }}</span>
       </a>
@@ -12,15 +14,16 @@
       <a {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
         <span class="navigation__title">Work</span>
       </a>
+
     </div>
 
-    <div class="nav-item justify-end items-center mr-0 2xl:mr-0">
+    <div class="nav-item end">
 
       <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
         <span class="navigation__title">About</span>
       </a>
 
-      <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0 hidden" data-turbolinks-permanent></div>
+      <!-- <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0 hidden" data-turbolinks-permanent></div> -->
      
     </div>
 

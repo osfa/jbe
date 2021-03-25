@@ -1,38 +1,40 @@
 ---
 layout: default
 ---
-<section id="index-list" class="text-2xl py-6 text-center">
+<section id="index-list">
 
-  <h1 class="mt-0 mb-6">2020</h1>
+  <h1 class="year-header-first">2020</h1>
   <ul>
     {% assign sortedPosts = site.posts | sort: 'weight' %}
     {% for post in sortedPosts %}
       {% if 2020 == post.year %}
-      <li class="pb-3"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
 
-  <h1 class="my-6">2019</h1>
+  <h1 class="year-header">2019</h1>
   <ul>
     {% assign sortedPosts = site.posts | sort: 'weight' %}
     {% for post in sortedPosts %}
       {% if 2019 == post.year %}
-      <li class="pb-3"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
 
-  <h1 class="my-6">2017</h1>
+  <h1 class="year-header">2017</h1>
   <ul>
     {% assign sortedPosts = site.posts | sort: 'weight' %}
     {% for post in sortedPosts %}
       {% if 2017 == post.year %}
-      <li class="pb-3"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
 
-  <h1 class="my-6 "><a href="http://www.likeneveralways.com" class="underline">Archive</a></h1>
+  <h1 class="year-header">
+    <a href="http://www.likeneveralways.com" class="underline">Archive</a>
+  </h1>
 
 </section>

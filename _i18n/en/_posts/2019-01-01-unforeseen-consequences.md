@@ -14,10 +14,10 @@ weight: 3
 
 Image synthesis via artifical intelligence trained on dataset of minions imagery. 
 
-<div class='embed-container embed-vertical hidden'>
+<!-- <div class='embed-container embed-vertical hidden'>
 	<iframe width="1000" height="1870" src='https://www.youtube.com/embed/ZcYu6V4PbhI' frameborder='0' allowfullscreen></iframe>
 </div>
-
+ -->
 [![ufc](/assets/images/ufc-blocks/ufc-blocks-1.jpg "ufc")](/assets/images/ufc-blocks/ufc-blocks-1.jpg)
 
 [![ufc](/assets/images/ufc-projections/ufc-projections-2.jpg "ufc")](/assets/images/ufc-projections/ufc-projections-2.jpg)
