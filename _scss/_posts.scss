@@ -59,6 +59,31 @@
 
 }
 
+// .two-column {
+// 	// text-align: center;
+// 	p {
+// 		display: flex;
+// 		justify-content:center;
+//   		align-items:center;
+// 	}
+// 	img {
+// 		max-width: 50%;
+// 	}
+// }
+
+@media only screen and (min-width: $main-breakpoint) {
+	.two-column {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	}
+
+	.two-column p {
+	  flex: 50%;
+	  padding: 1.0rem;
+	}
+}
+
 .page {
 	&__content {
 
@@ -70,7 +95,7 @@
 	    padding: 0 0.75rem;
 
 	    @media only screen and (min-width: $main-breakpoint) {
-	    	padding: 0 1rem;
+	    	padding: 1.5 1rem;
 	    	font-size: 1.5rem;
 		}
 

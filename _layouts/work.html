@@ -40,7 +40,7 @@ layout: default
       <p>{{ page.description }}</p>
     </div>  
 
-    <div class="post__content" itemprop="articleBody">
+    <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
       {{ content }}
       {% for image in page.images %}
         <a href="{{ image.path | replace: '.jpg', '-1280.jpg' }}"><img data-sizes="auto"
