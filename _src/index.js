@@ -12,6 +12,26 @@ var ready = function() {
   //     }
   // }
 
+  // var bgimage = new Image();      
+  // bgimage.src="http://placeimg.com/760/460/tech";       
+  // $(".feature").hide();     
+  // $(bgimage).load(function(){
+  //     $(".home").css("background-image","url("+$(this).attr("src")+")").fadeIn(2000); 
+  //  }); 
+
+  if(document.getElementById('home') && false){
+      console.log('home');
+      document.getElementById('loader').classList.remove('bad');
+      var img = new Image();
+      var targetSrc = "/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920"
+      img.onload = function() { 
+        document.getElementById('loader').classList.add('hidden');
+        document.getElementById('home').classList.add('loaded');
+        document.getElementById('home').style.backgroundImage = "url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920)"; 
+      }
+      img.src = targetSrc;
+  }
+  
   // const loader = document.querySelector('#loader');
   // const mainVideo = document.querySelector('#bgvid');
 
@@ -83,5 +103,5 @@ var audioReady = function() {
 // $(document).on('page:load', ready);
 
 // document.addEventListener("page:load", ready);
-// document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);
 // document.addEventListener("DOMContentLoaded", audioReady);
