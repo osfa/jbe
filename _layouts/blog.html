@@ -3,6 +3,17 @@ layout: default
 ---
 <section id="index-list">
 
+  <h1 class="year-header-first">2021</h1>
+  <ul>
+    {% assign sortedPosts = site.posts | sort: 'weight' %}
+    {% for post in sortedPosts %}
+      {% if 2021 == post.year %}
+      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
   <h1 class="year-header-first">2020</h1>
   <ul>
     {% assign sortedPosts = site.posts | sort: 'weight' %}
