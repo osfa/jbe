@@ -13,7 +13,7 @@ permalink: /chamberlain/
 
 <div class="pad">
 
-Machine learning upscaling and frame interpolation algorithms applied to found footage.
+Resolution upscaling and frame interpolation algorithms applied to found footage.
 
 </div>
 
