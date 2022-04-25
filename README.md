@@ -1,8 +1,18 @@
 hero_video: QgEEVK4FTxk
 
+
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg)
+[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg)
+
+
 node 12
 
-
+yarn start
 images:
     - path: /assets/images/triggered/triggered-14.jpg
     - path: /assets/images/triggered/triggered-9.jpg
@@ -10,7 +20,12 @@ images:
     - path: /assets/images/triggered/triggered-5.jpg
     - path: /assets/images/triggered/triggered-6.jpg
     
-
+<!--         <a href="{{ image.path | replace: '.jpg', '-1280.jpg' }}">
+          <img data-sizes="auto"
+          src="{{ image.path | replace: '.jpg', '-220.jpg' }}"
+          data-src="{{ image.path | replace: '.jpg', '-1280.jpg' }}"
+          data-srcset="{{ image.path | replace: '.jpg', '-500.jpg' }} 500w, {{ image.path | replace: '.jpg', '-1024.jpg' }} 1024w, {{ image.path | replace: '.jpg', '-1280.jpg' }} 1280w" class="lazyload" />
+        </a> -->
 <p align="center">
   <img src="https://github.com/sandoche/Jekyll-webpack-boilerplate/blob/master/icon.png?raw=true" width="200"/>
 </p>

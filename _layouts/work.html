@@ -2,10 +2,10 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="post__container">
 
     {% if page.audio_source != "" and page.audio_source != nil %}
-
       <audio class="w-full" controls autoplay>
       <source src="{{ page.audio_source }}" type="audio/mpeg">
       Your browser does not support the audio element.
@@ -25,14 +25,11 @@ layout: default
         <iframe src='{{ page.horisontal_embed_uri }}' frameborder='0' allowfullscreen></iframe>
       </div>
 
-
-
     {% else %}
 
     <img src="{{ page.hero }}?nf_resize=fit&w=1920" class="post-hero" />
 
     {% endif %}
-
 
     <div class="post__meta">
       <p>{{ page.title }}</p>
@@ -43,15 +40,19 @@ layout: default
     <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
       {{ content }}
       {% for image in page.images %}
-        <a href="{{ image.path | replace: '.jpg', '-1280.jpg' }}"><img data-sizes="auto"
-          src="{{ image.path | replace: '.jpg', '-220.jpg' }}"
-          data-src="{{ image.path | replace: '.jpg', '-1280.jpg' }}"
-          data-srcset="{{ image.path | replace: '.jpg', '-500.jpg' }} 500w, {{ image.path | replace: '.jpg', '-1024.jpg' }} 1024w, {{ image.path | replace: '.jpg', '-1280.jpg' }} 1280w" class="lazyload" />
+        <a href="/assets/images{{ page.permalink }}2k/{{ image.path }}">
+          <img src="/assets/images{{ page.permalink }}1k/{{ image.path }}"
+            srcset="
+            /assets/images{{ page.permalink }}1k/{{ image.path }} 320w, 
+            /assets/images{{ page.permalink }}15k/{{ image.path }} 800w, 
+            /assets/images{{ page.permalink }}2k/{{ image.path }} 1200w"
+          />
         </a>
       {% endfor %}
     </div>
 
 
   </div>
+  
 </article>
 
