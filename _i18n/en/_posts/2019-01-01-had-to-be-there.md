@@ -6,7 +6,7 @@ date: 2021-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2021
-description: Panoramic reconstruction, 2160x2700
+description: Panoramic reconstruction, 2160 x 2700
 weight: 2
 permalink: /you-had-to-be-there/
 published: true
