@@ -21,8 +21,8 @@ layout: default
       {% endif %}
 
     </div>
-    <div class="post__content tight {{ page.custom_class }}">{{ content }}</div>
 
+    <div class="post__content tight {{ page.custom_class }}">{{ content }}</div>
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
 
@@ -43,11 +43,11 @@ layout: default
 
     <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
       {% for image in page.images %}
-      <a href="/assets/images{{ page.permalink }}2k/{{ image.path }}">
-        <img src="/assets/images{{ page.permalink }}1k/{{ image.path }}" srcset="
-            /assets/images{{ page.permalink }}1k/{{ image.path }} 320w, 
-            /assets/images{{ page.permalink }}1k/{{ image.path }} 800w, 
-            /assets/images{{ page.permalink }}1k/{{ image.path }} 1200w" />
+      <a href="/assets/images{{ page.permalink }}{{ image.path }}">
+        <img src="/assets/images{{ page.permalink }}{{ image.path }}" srcset="
+            /assets/images{{ page.permalink }}{{ image.path }} 320w, 
+            /assets/images{{ page.permalink }}{{ image.path }} 800w, 
+            /assets/images{{ page.permalink }}{{ image.path }} 1200w" />
       </a>
       {% endfor %}
     </div>
