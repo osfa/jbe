@@ -4,12 +4,14 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post__container">
+    
     {% if page.audio_source != "" and page.audio_source != nil %}
     <audio class="w-full" controls autoplay>
       <source src="{{ page.audio_source }}" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
     {% endif %}
+
     <div class="post__meta">
       <p>{{ page.title }}</p>
       <p>{{ page.year }}</p>
@@ -22,13 +24,7 @@ layout: default
     <!-- width="500"
       height="935" -->
     <!-- 701 -->
-    <iframe
-      width="375"
-      height="701"
-      src="{{ page.vertical_embed_uri }}"
-      frameborder="0"
-      allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen
+    <iframe width="375" height="701" src="{{ page.vertical_embed_uri }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
     ></iframe>
     <!-- </div> -->
 
@@ -36,10 +32,7 @@ layout: default
     nil %}
 
     <div class="embed-container">
-      <iframe
-        src="{{ page.horisontal_embed_uri }}"
-        frameborder="0"
-        allowfullscreen
+      <iframe src="{{ page.horisontal_embed_uri }}" frameborder="0" allowfullscreen
       ></iframe>
     </div>
 
