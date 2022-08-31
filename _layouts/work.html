@@ -16,7 +16,13 @@ layout: default
       <p>{{ page.title }}</p>
       <p>{{ page.year }}</p>
       <p>{{ page.description }}</p>
+      {% if page.project_url != "" and page.project_url != nil %}
+      🔗 <a style="color: blue;" class="underline" href=" {{ page.project_url }}">{{ page.project_url }}</a>
+      {% endif %}
+
     </div>
+    <div class="post__content tight {{ page.custom_class }}">{{ content }}</div>
+
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
 
@@ -31,17 +37,17 @@ layout: default
 
     {% else %}
 
-    <img src="{{ page.hero }}?nf_resize=fit&w=1920" class="post-hero" />
+    <!-- <img src="{{ page.hero }}?nf_resize=fit&w=1920" class="post-hero" /> -->
 
     {% endif %}
 
     <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
-      {{ content }} {% for image in page.images %}
+      {% for image in page.images %}
       <a href="/assets/images{{ page.permalink }}2k/{{ image.path }}">
         <img src="/assets/images{{ page.permalink }}1k/{{ image.path }}" srcset="
             /assets/images{{ page.permalink }}1k/{{ image.path }} 320w, 
-            /assets/images{{ page.permalink }}15k/{{ image.path }} 800w, 
-            /assets/images{{ page.permalink }}2k/{{ image.path }} 1200w" />
+            /assets/images{{ page.permalink }}1k/{{ image.path }} 800w, 
+            /assets/images{{ page.permalink }}1k/{{ image.path }} 1200w" />
       </a>
       {% endfor %}
     </div>

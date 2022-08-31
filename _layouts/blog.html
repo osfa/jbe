@@ -13,14 +13,26 @@ layout: default
   <a href="https://twitter.com/osfa">🔗 twitter</a>
   <a href="https://blessthismess.tumblr.com">🔗 tumblr</a>
 
-  <h1 style="margin-top: 1.5rem">WORKS</h1>
+  <h1 style="margin-top: 1.5rem">SELECTED WORKS</h1>
 
-  <h1 class="year-header-first">2021</h1>
+  <h1 class="year-header-first">2022</h1>
+  <ul>
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2022 == post.year %}
+    <li>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+
+  <h1 class="year-header">2021</h1>
   <ul>
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2021 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{ post.title }}</a>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -30,7 +42,8 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2020 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{ post.title }}</a>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -40,7 +53,8 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2019 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{ post.title }}</a>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -50,7 +64,8 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2018 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero"/>{{ post.title }}</a>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -60,7 +75,8 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2017 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{ post.title }}</a>
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=1920" class="post-hero" />{{
+        post.title }}</a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -68,5 +84,5 @@ layout: default
   <h1 class="year-header">
     <a href="http://www.likeneveralways.com" class="underline">Archive</a>
   </h1>
-  
+
 </section>
