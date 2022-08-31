@@ -4,28 +4,37 @@
 
 
     <div class="nav-item start">
+
       <a {% if page.url == "/" %} class="active underline"{% endif %} href="{{ "/" | relative_url }}" >
         <span class="navigation__title">{{ site.title | escape }}</span>
       </a>
+
+      <!-- <a style="margin-left: 10px; color: #0000EE; text-decoration: underline;" {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
+        <span class="navigation__title">Index</span>
+      </a> -->
+
     </div>
 
-    <div class="fixed">
-
+    <!-- <div class="fixed"> -->
+<!-- 
       <a {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
+        <span class="navigation__title">Idx</span>
+      </a> -->
+
+    <!-- </div> -->
+
+    <!-- <div class="nav-item end"> -->
+<!-- 
+      <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
+        <span class="navigation__title">About</span>
+      </a> -->
+
+      <!-- <a {% if page.url != "/" and page.url != "/about/" %} class="active underline "{% endif %} href="{{ "/work" | relative_url }}">
         <span class="navigation__title">Work</span>
       </a>
 
-    </div>
-
-    <div class="nav-item end">
-
-      <a {% if page.url == "/about/" %} class="active underline "{% endif %} href="{{ "/about" | relative_url }}">
-        <span class="navigation__title">About</span>
-      </a>
-
+    </div> -->
       <!-- <div id="muter" class="bg-red w-16 h-16 absolute top-0 right-0 hidden" data-turbolinks-permanent></div> -->
-     
-    </div>
 
   </div>
 

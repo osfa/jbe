@@ -9,10 +9,11 @@ year: 2021
 description: Image series excerpt
 weight: 1
 permalink: /feels-matrix/
-published: false
+published: true
 ---
 
-<div class="pad">Ongoing generative image series, various dimensions.</div>
+<p class="pad"><a href="http://www.instagram.com/feelsmatrix">http://www.instagram.com/feelsmatrix</a>
+</p>
 
 [![fm-00016.png](/assets/images/feelsmatrix/fm-00016.png)](/assets/images/feelsmatrix/fm-00016.png)
 [![fm-00017.png](/assets/images/feelsmatrix/fm-00017.png)](/assets/images/feelsmatrix/fm-00017.png)

@@ -1,61 +1,73 @@
 ---
 layout: default
 ---
-<section id="index-list">
 
+<section id="index-list">
+  <span>📩 jacob@likeneveralways.com</span>
+  </br>
+  <a href="/cv.pdf">🔗 cv.pdf</a>
+  <a href="https://instagram.com/jacobbromsengblom/">🔗 instagram</a>
+  <a href="https://twitter.com/osfa">🔗 twitter</a>
+  <a href="https://blessthismess.tumblr.com">🔗 tumblr</a>
+  <h1 style="margin-top: 1.5rem">WORKS</h1>
   <h1 class="year-header-first">2021</h1>
   <ul>
-    {% assign sortedPosts = site.posts | sort: 'weight' %}
-    {% for post in sortedPosts %}
-      {% if 2021 == post.year %}
-      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2021 == post.year %}
+    <li>
+      <a href="{{ post.url }}" class="underline">
+        <img
+          src="{{ post.hero }}?nf_resize=fit&w=1920"
+          class="post-hero"
+          style="width: 100%; max-width: 64rem"
+        />{{ post.title }}</a
+      >
+    </li>
 
+    {% endif %} {% endfor %}
+  </ul>
 
   <h1 class="year-header">2020</h1>
   <ul>
-    {% assign sortedPosts = site.posts | sort: 'weight' %}
-    {% for post in sortedPosts %}
-      {% if 2020 == post.year %}
-      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2020 == post.year %}
+    <li>
+      <a href="{{ post.url }}" class="underline"
+        ><img
+          src="{{ post.hero }}?nf_resize=fit&w=1920"
+          class="post-hero"
+          style="width: 100%; max-width: 64rem"
+        />{{ post.title }}</a
+      >
+    </li>
+    {% endif %} {% endfor %}
   </ul>
 
   <h1 class="year-header">2019</h1>
   <ul>
-    {% assign sortedPosts = site.posts | sort: 'weight' %}
-    {% for post in sortedPosts %}
-      {% if 2019 == post.year %}
-      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2019 == post.year %}
+    <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+    {% endif %} {% endfor %}
   </ul>
 
   <h1 class="year-header">2018</h1>
   <ul>
-    {% assign sortedPosts = site.posts | sort: 'weight' %}
-    {% for post in sortedPosts %}
-      {% if 2018 == post.year %}
-      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2018 == post.year %}
+    <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+    {% endif %} {% endfor %}
   </ul>
 
   <h1 class="year-header">2017</h1>
   <ul>
-    {% assign sortedPosts = site.posts | sort: 'weight' %}
-    {% for post in sortedPosts %}
-      {% if 2017 == post.year %}
-      <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
+    sortedPosts %} {% if 2017 == post.year %}
+    <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+    {% endif %} {% endfor %}
   </ul>
 
   <h1 class="year-header">
     <a href="http://www.likeneveralways.com" class="underline">Archive</a>
   </h1>
-
 </section>

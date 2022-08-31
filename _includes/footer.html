@@ -1,21 +1,13 @@
 <footer class="footer">
-  <div class="footer__container">
-      {% t footer.love %}
-  </div>
+  <div class="footer__container">{% t footer.love %}</div>
 </footer>
 
 <div class="footer-nav">
-
-	<div class="footer-nav-container">
-
-	  {% if page.previous.url %}
-	    <a class="prev" href="{{page.previous.url}}">← Previous</a>
-	  {% endif %}
-
-	  {% if page.next.url %}
-	    <a class="next" href="{{page.next.url}}">Next →</a>
-	  {% endif %}
-
-	</div>
-
+  <div class="footer-nav-container">
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">Previous</a>
+    {% endif %} {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">Next</a>
+    {% endif %}
+  </div>
 </div>

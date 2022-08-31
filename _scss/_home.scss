@@ -9,8 +9,10 @@
   background-color: light-yellow;
   top: 0;
   left: 0;
-  background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+  background: url(/assets/images/1978-07-17-2.jpg-25e-1650464620-seed1005-p0.999-k2048-1024x2048-25e-1650466322-splinter-0-gigapixel-lines-scale-2_00x.png) no-repeat center center fixed;
   animation: fadeIn 1s;
+
+  opacity: 0.75;
 }
 
 #loader {
@@ -59,31 +61,31 @@
 
 @media only screen and (min-width: 768px) {
   #home {
-      background: url(/assets/images/equi-80-r.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+      background: url(/assets/images/1978-07-17-2.jpg-25e-1650464620-seed1005-p0.999-k2048-1024x2048-25e-1650466322-splinter-0-gigapixel-lines-scale-2_00x.png) no-repeat center center fixed;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+    	background: url(/assets/images/1978-07-17-2.jpg-25e-1650464620-seed1005-p0.999-k2048-1024x2048-25e-1650466322-splinter-0-gigapixel-lines-scale-2_00x-h.png) no-repeat center center fixed;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  #home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
-  }
-}
+// @media only screen and (min-width: 1280px) {
+//   #home {
+//     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=1920) no-repeat center center fixed;
+//   }
+// }
 
-@media only screen and (min-width: 1920px) {
-  #home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3200) no-repeat center center fixed;
-  }
-}
+// @media only screen and (min-width: 1920px) {
+//   #home {
+//     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3200) no-repeat center center fixed;
+//   }
+// }
 
-@media only screen and (min-width: 3000px) {
-  #home {
-    	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
-      background-size: contain!important;
-  }
-}
+// @media only screen and (min-width: 3000px) {
+//   #home {
+//     	background: url(/assets/images/equi-80.jpg?nf_resize=fit&w=3840) no-repeat center center fixed;
+//       background-size: contain!important;
+//   }
+// }
