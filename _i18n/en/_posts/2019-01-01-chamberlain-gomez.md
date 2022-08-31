@@ -1,8 +1,8 @@
 ---
 layout: work
 title: Chamberlain Gomez 4K
-date: 2021-02-12T14:53:49.009Z
 hero: /assets/images/chamberlain/chamberlain-hero.jpg
+date: 2021-02-12T14:53:49.009Z
 horisontal_embed_uri: https://player.vimeo.com/video/533976157
 categories: work
 author: jbe
@@ -10,14 +10,9 @@ year: 2021
 description: 4K video 13:05 min
 weight: 5
 permalink: /chamberlain/
-hero: 
 ---
 
-<div class="pad">
-
-Resolution upscaling and frame interpolation algorithms applied to found footage.
-
-</div>
+<div class="pad">Resolution upscaling and frame interpolation algorithms applied to found footage.</div>
 
 <!-- <div class="audioplayer fixed w-full z-50">
    <audio class="w-full" controls autoplay>
