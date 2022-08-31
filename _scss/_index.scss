@@ -20,6 +20,12 @@
 		margin-bottom: 2rem;
 		// background-color: white;
 		cursor: pointer!important;
+
+		img {
+			width: 100%; 
+			max-width: 44rem;
+			max-width: 960px;
+		}
 	}
 
 	li:hover {
