@@ -9,7 +9,7 @@ year: 2021
 description: Panoramic reconstruction, 2160x2700
 weight: 2
 permalink: /you-had-to-be-there/
-published: false
+published: true
 ---
 
 [![youhadtobethere](/assets/images/youhadtobethere/b9-full.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b9-full.jpg)
