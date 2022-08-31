@@ -4,7 +4,7 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post__container">
-    
+
     {% if page.audio_source != "" and page.audio_source != nil %}
     <audio class="w-full" controls autoplay>
       <source src="{{ page.audio_source }}" type="audio/mpeg" />
@@ -20,21 +20,14 @@ layout: default
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
 
-    <!-- <div class='embed-container embed-vertical'> -->
-    <!-- width="500"
-      height="935" -->
-    <!-- 701 -->
-    <iframe width="375" height="701" src="{{ page.vertical_embed_uri }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-    ></iframe>
-    <!-- </div> -->
+    <iframe width="375" height="701" src="{{ page.vertical_embed_uri }}" frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
     {% elsif page.horisontal_embed_uri != "" and page.horisontal_embed_uri !=
     nil %}
 
-    <div class="embed-container">
-      <iframe src="{{ page.horisontal_embed_uri }}" frameborder="0" allowfullscreen
-      ></iframe>
-    </div>
+    <iframe src="{{ page.horisontal_embed_uri }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen></iframe>
 
     {% else %}
 
@@ -45,13 +38,10 @@ layout: default
     <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
       {{ content }} {% for image in page.images %}
       <a href="/assets/images{{ page.permalink }}2k/{{ image.path }}">
-        <img
-          src="/assets/images{{ page.permalink }}1k/{{ image.path }}"
-          srcset="
+        <img src="/assets/images{{ page.permalink }}1k/{{ image.path }}" srcset="
             /assets/images{{ page.permalink }}1k/{{ image.path }} 320w, 
             /assets/images{{ page.permalink }}15k/{{ image.path }} 800w, 
-            /assets/images{{ page.permalink }}2k/{{ image.path }} 1200w"
-        />
+            /assets/images{{ page.permalink }}2k/{{ image.path }} 1200w" />
       </a>
       {% endfor %}
     </div>
