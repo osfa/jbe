@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Feels Matrix
-hero: /assets/images/feelsmatrix/hero.jpg
+hero: /assets/images/feels-matrix/hero.jpg
 date: 2021-02-12T14:53:49.009Z
 categories: work
 author: jbe
