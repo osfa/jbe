@@ -1,7 +1,7 @@
 ---
 layout: work
 title: You had to be there
-hero: /assets/images/youhadtobethere/2k/hero.jpg
+hero: /assets/images/you-had-to-be-there/2k/hero.jpg
 date: 2021-02-12T14:53:49.009Z
 categories: work
 author: jbe
