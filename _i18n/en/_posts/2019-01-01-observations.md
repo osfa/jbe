@@ -10,16 +10,11 @@ year: 2019
 permalink: /observations/
 description: 4-channel 4K video loop 2:20
 weight: 110
+images:
+   - path: 2k/obs-olomouc2.jpg
+   - path: 2k/observations-3.jpg
+   - path: 2k/observations-5.jpg
+   - path: 2k/observations-4.jpg
 ---
 
-<div class="pad">
 Image synthesis via artificial intelligence trained on conspiracy and chemtrails imagery from pinterest and conspiracy groups on Facebook.
-</div>
-
-[![observations](/assets/images/observations/obs-olomouc2.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/observations/obs-olomouc2.jpg)
-
-[![observations](/assets/images/observations/observations-3.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/observations/observations-3.jpg)
-
-[![observations](/assets/images/observations/observations-5.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/observations/observations-5.jpg)
-
-[![observations](/assets/images/observations/observations-4.jpg?nf_resize=fit&w=1920){:loading="lazy"}](/assets/images/observations/observations-4.jpg)

@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  <head>
-    {% include head.html %}
-  </head>
+<head>
+  {% include head.html %}
+</head>
 
-  <body {% if page.slug %} class="{{ page.slug }}"{% endif %}>
-    {% include navigation.html %}
+<body {% if page.slug %} class="{{ page.slug }}" {% endif %}>
+  {% include navigation.html %}
 
-    <main id="main">
+  <main id="main">
     {{ content }}
-    </main>
+  </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    {% include scripts.html %}
+  {% include scripts.html %}
 
-  <noscript>
-    <style>.lazy { display: none; }</style>
-  </noscript>
-
-  </body>
+</body>
 
 </html>

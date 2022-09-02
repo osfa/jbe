@@ -17,7 +17,7 @@ layout: default
       <p>{{ page.year }}</p>
       <p>{{ page.description }}</p>
       {% if page.project_url != "" and page.project_url != nil %}
-      🔗 <a style="color: blue;" class="underline" href=" {{ page.project_url }}">{{ page.project_url }}</a>
+      <a class="project-link underline" href=" {{ page.project_url }}">🔗 {{ page.project_url }}</a>
       {% endif %}
 
     </div>
@@ -26,7 +26,7 @@ layout: default
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
 
-    <iframe style="padding-left: 15px;" width="375" height="700" src="{{ page.vertical_embed_uri }}" frameborder="0"
+    <iframe class="left-pad" width="375" height="700" src="{{ page.vertical_embed_uri }}" frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
     {% elsif page.horisontal_embed_uri != "" and page.horisontal_embed_uri !=

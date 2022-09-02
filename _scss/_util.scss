@@ -10,6 +10,18 @@
 	text-decoration: underline;
 }
 
+.project-link {
+	text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+display: block;
+color:blue;
+}
+
 .w-full {
 	width: 100%;
+}
+
+.left-pad {
+	padding-left: 15px;
 }
