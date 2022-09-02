@@ -24,7 +24,10 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2022 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero" />{{
+      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero"
+          srcset="
+        {{ post.hero }}?nf_resize=fit&w=960 480w, 
+        {{ post.hero }} 960w" />{{
         post.title }}</a>
     </li>
     {% endif %} {% endfor %}

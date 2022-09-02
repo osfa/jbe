@@ -26,14 +26,16 @@ layout: default
 
     {% if page.vertical_embed_uri != "" and page.vertical_embed_uri != nil %}
 
-    <iframe width="375" height="701" src="{{ page.vertical_embed_uri }}" frameborder="0"
+    <iframe style="padding-left: 15px;" width="375" height="700" src="{{ page.vertical_embed_uri }}" frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
     {% elsif page.horisontal_embed_uri != "" and page.horisontal_embed_uri !=
     nil %}
 
-    <iframe src="{{ page.horisontal_embed_uri }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen></iframe>
+    <div class='embed-container'>
+      <iframe width="375" src="{{ page.horisontal_embed_uri }}" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     {% else %}
 
@@ -45,8 +47,7 @@ layout: default
       {% for image in page.images %}
       <a href="/assets/images{{ page.permalink }}{{ image.path }}">
         <img src="/assets/images{{ page.permalink }}{{ image.path }}" srcset="
-            /assets/images{{ page.permalink }}{{ image.path }}?nf_resize=fit&w=960 480w, 
-            /assets/images{{ page.permalink }}{{ image.path }} 1200w" />
+            /assets/images{{ page.permalink }}{{ image.path }}?nf_resize=fit&w=960 480w" />
       </a>
       {% endfor %}
     </div>

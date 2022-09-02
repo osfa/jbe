@@ -1,7 +1,7 @@
 ---
 layout: work
 title: What does shrimp dreams mean?
-hero: /assets/images/shrimpdreams.jpg
+hero: /assets/images/shrimp-dreams/shrimpdreams.jpg
 date: 2020-02-12T14:53:49.009Z
 horisontal_embed_uri: https://player.vimeo.com/video/531340525
 categories: work
@@ -12,6 +12,8 @@ description: FullHD 10:40 min
 weight: 500
 published: true
 ---
+
+Video collage of aggregated found YouTube-content of dream interpretations.
 
 <!-- <p class="pad">
 
