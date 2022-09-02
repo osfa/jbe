@@ -47,8 +47,13 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2021 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero" />{{
-        post.title }}</a>
+      <a href="{{ post.url }}" class="underline">
+        <picture>
+          <source media="(min-width: 640px)" srcset="{{ post.hero }}">
+          <source media="(min-width: 0px)" srcset="{{ post.hero }}?nf_resize=fit&w=960">
+          <img src="{{ post.hero }}">
+        </picture>
+      </a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -69,8 +74,14 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2019 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero" />{{
-        post.title }}</a>
+      <a href="{{ post.url }}" class="underline">
+        <picture>
+          <source media="(min-width: 640px)" srcset="{{ post.hero }}">
+          <source media="(min-width: 0px)" srcset="{{ post.hero }}?nf_resize=fit&w=960">
+          <img src="{{ post.hero }}">
+        </picture>
+        {{ post.title }}
+      </a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -80,8 +91,14 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2018 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero" />{{
-        post.title }}</a>
+      <a href="{{ post.url }}" class="underline">
+        <picture>
+          <source media="(min-width: 640px)" srcset="{{ post.hero }}">
+          <source media="(min-width: 0px)" srcset="{{ post.hero }}?nf_resize=fit&w=960">
+          <img src="{{ post.hero }}">
+        </picture>
+        {{ post.title }}
+      </a>
     </li>
     {% endif %} {% endfor %}
   </ul>
@@ -91,8 +108,14 @@ layout: default
     {% assign sortedPosts = site.posts | sort: 'weight' %} {% for post in
     sortedPosts %} {% if 2017 == post.year %}
     <li>
-      <a href="{{ post.url }}" class="underline"><img src="{{ post.hero }}?nf_resize=fit&w=960" class="post-hero" />{{
-        post.title }}</a>
+      <a href="{{ post.url }}" class="underline">
+        <picture>
+          <source media="(min-width: 640px)" srcset="{{ post.hero }}">
+          <source media="(min-width: 0px)" srcset="{{ post.hero }}?nf_resize=fit&w=960">
+          <img src="{{ post.hero }}">
+        </picture>
+        {{ post.title }}
+      </a>
     </li>
     {% endif %} {% endfor %}
   </ul>

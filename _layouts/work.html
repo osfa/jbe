@@ -46,8 +46,12 @@ layout: default
     <div class="post__content {{ page.custom_class }}" itemprop="articleBody">
       {% for image in page.images %}
       <a href="/assets/images{{ page.permalink }}{{ image.path }}">
-        <img src="/assets/images{{ page.permalink }}{{ image.path }}" srcset="
-            /assets/images{{ page.permalink }}{{ image.path }}?nf_resize=fit&w=960 480w" />
+        <picture>
+          <source media="(min-width: 640px)" srcset="/assets/images{{ page.permalink }}{{ image.path }}">
+          <source media="(min-width: 0px)"
+            srcset="/assets/images{{ page.permalink }}{{ image.path }}?nf_resize=fit&w=960">
+          <img src="/assets/images{{ page.permalink }}{{ image.path }}">
+        </picture>
       </a>
       {% endfor %}
     </div>
