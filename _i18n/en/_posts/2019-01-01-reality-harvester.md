@@ -7,7 +7,7 @@ categories: work
 author: jbe
 year: 2022
 description: Research Project
-weight: 1
+weight: 3
 permalink: /reality-harvester/
 project_url: https://reality.harvester.bargains
 images:
