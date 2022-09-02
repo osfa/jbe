@@ -1,32 +1,24 @@
 ---
 layout: work
 title: You had to be there
-hero: /assets/images/youhadtobethere/hero.jpg
+hero: /assets/images/youhadtobethere/2k/hero.jpg
 date: 2021-02-12T14:53:49.009Z
 categories: work
 author: jbe
 year: 2021
-description: Panoramic reconstruction, 2160 x 2700
+description: Panoramic reconstruction, 8 x 2160 x 2700 px
 weight: 2
 permalink: /you-had-to-be-there/
 published: true
+images:
+   - path: 2k/b9-full.jpg
+   - path: 2k/b3.jpg
+   - path: 2k/b6.jpg
+   - path: 2k/b4.jpg
+   - path: 2k/b2.jpg
+   - path: 2k/b1.jpg
+   - path: 2k/b5.jpg
+   - path: 2k/b7.jpg
 ---
-
-[![youhadtobethere](/assets/images/youhadtobethere/b9-full.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b9-full.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b3.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b3.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b6.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b6.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b4.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b4.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b2.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b2.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b1.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b1.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b5.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b5.jpg)
-
-[![youhadtobethere](/assets/images/youhadtobethere/b7.jpg){:loading="lazy"}](/assets/images/youhadtobethere/b7.jpg)
-
 
 

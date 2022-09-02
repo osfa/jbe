@@ -1,13 +1,11 @@
 hero_video: QgEEVK4FTxk
 
 
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637676947.jpeg-mask_rcnn_X_101_32x8d_FPN_1x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677115.jpeg-mask_rcnn_R_50_FPN_3x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677619.jpeg-mask_rcnn_R_50_FPN_1x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677701.jpeg-faster_rcnn_X_101_32x8d_FPN_3x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677781.jpeg-mask_rcnn_R_50_FPN_3x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637677941.jpeg-mask_rcnn_X_101_32x8d_FPN_3x.jpg)
-[![each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg)](/assets/images/eachofus/each-of-us-3072x3840-minw-400-maxw-1000-loops-7-1637678102.jpeg-mask_rcnn_R_101_FPN_3x.jpg)
+max-w 2000px
+max-h 2000px?
+
+- resize thumbs to 2@x? for desktop?
+  - srcset?
 
 
 node 12
